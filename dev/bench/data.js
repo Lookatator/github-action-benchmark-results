@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671575778357,
+  "lastUpdate": 1671578749397,
   "entries": {
     "Rust Benchmark": [
       {
@@ -40259,6 +40259,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "bench :: test_fib_20 :: Timing",
             "value": "-0.004645586013793945",
+            "unit": "(-1 * Seconds)"
+          },
+          {
+            "name": "bench :: test_fib_20 :: QD Score",
+            "value": "10946",
+            "unit": "(QD Score)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "luca.grillotti@gmail.com",
+            "name": "Luca Grillotti",
+            "username": "Lookatator"
+          },
+          "committer": {
+            "email": "luca.grillotti@gmail.com",
+            "name": "Luca Grillotti",
+            "username": "Lookatator"
+          },
+          "distinct": true,
+          "id": "38a232b500fc8921c587c1c10e56b792b513d609",
+          "message": "github packages",
+          "timestamp": "2022-12-21T00:25:26+01:00",
+          "tree_id": "27363b927aa898160d951f92659f0c87c08c657c",
+          "url": "https://github.com/Lookatator/github-action-benchmark/commit/38a232b500fc8921c587c1c10e56b792b513d609"
+        },
+        "date": 1671578748742,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "bench :: test_fib_10 :: Timing",
+            "value": "-2.2649765014648438e-05",
+            "unit": "(-1 * Seconds)"
+          },
+          {
+            "name": "bench :: test_fib_10 :: QD Score",
+            "value": "29.666666666666668",
+            "unit": "(QD Score)"
+          },
+          {
+            "name": "bench :: test_fib_20 :: Timing",
+            "value": "-0.0020704269409179688",
             "unit": "(-1 * Seconds)"
           },
           {
